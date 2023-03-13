@@ -7,7 +7,7 @@ In order to be registered as a collaborator to this organization, you must compl
 ## Steps
 
 1.  Register a *GitHub* account with your corporate email address *(i.e. `@skyvar.co.il`)* and your full first and last name **in English**.
-2.  Create an [issue](https://github.com/skyvar/registration/issues/new) detailing the desired task you wish to be assigned. Be sure to include a description of the task in your own words, to be sure that you understood what needs to be done. The first user to create an issue for a given task will be given that tasks. If a user requests a previously allocated task, they will have to start the process over again.
+2.  Create an [issue](https://github.com/skyvar/registration/issues/new) detailing the desired task you wish to be assigned. Be sure to include a description of the task in your own words, to be sure that you understood what needs to be done. The first user to create an issue for a given task, will be given that tasks. If a user requests a previously allocated task, then will have to start the process over again.
 3.  Create a `fork` of this repository with a branch named `feature/my-task-name` *(using lower-kabob-case only)*, replace `my-task-name` with a short description of your task.
 4.  Complete the task based on its description on your fork in a sub-folder of the root of the project.
 5.  If you have any questions regarding the task, you can post a *comment* in the issue created during *step 2*. All comments and communication must be in English. Be sure to tag `@bdsoha` in your comment.
