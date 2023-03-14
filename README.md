@@ -58,7 +58,7 @@ Use Python’s `docker` package to run a `busybox`:
 -   Keep the container running by using sleep.
 -   Run an additional command to `exec` into the container and retrieve the `hostname` for the container.
 
-### 6. Coordinate Conversion
+### 6. Coordinate Conversion *(Assigned to @chananaimen)*
 
 Convert *decimal degrees (DD)* to *degrees minutes seconds (DMS)* in the language of your choosing. Example coordinated:
 
