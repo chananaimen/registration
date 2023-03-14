@@ -37,7 +37,7 @@ Create a simple `cli` tool with two commands:
 1.  A command that appends a `json` argument to a local file.
 2.  A command that returns the last 10 arguments from the persisted file.
 
-### 3. [VitePress](https://vitepress.dev/)
+### 3. [VitePress](https://vitepress.dev/) *(Assigned to @SaraLitman)*
 
 Deploy a simple VitePress instance with two pages:
 
@@ -51,7 +51,7 @@ Create a Dockerfile using a base image of your choice that contains the followin
 -   The `ffmpeg` package.
 -   An entrypoint that will run the `ffmpeg` package.
 
-### 5. [Python Docker](https://pypi.org/project/docker/)
+### 5. [Python Docker](https://pypi.org/project/docker/) *(Assigned to @ShaindyBorzikowsky)*
 
 Use Python’s `docker` package to run a `busybox`:
 
@@ -79,11 +79,11 @@ Convert *decimal degrees (DD)* to *degrees minutes seconds (DMS)* in the languag
 
 Programmatically convert a markdown document to a PDF in any language.
 
-### 8. [Numpy](https://numpy.org/)
+### 8. [Numpy](https://numpy.org/) *(Assigned to @RivkaZishinski)*
 
 Given an image of choosing, create histogram of RGB colors found in the image using `numpy`.
 
-### 9. Password Strength
+### 9. Password Strength *(Assigned to @FridaPshitik)*
 
 Write a tool that when provided a password, it will return `true` if it passes the following criteria”:
 
