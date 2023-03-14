@@ -23,7 +23,7 @@ In order to be registered as a collaborator to this organization, you must compl
 
 ## Tasks
 
-### 1. [FastAPI](https://fastapi.tiangolo.com/)
+### 1. [FastAPI](https://fastapi.tiangolo.com/) *(Assigned to @esterlev23)*
 
 Deploy a simple `http` server with two endpoints:
 
@@ -44,7 +44,7 @@ Deploy a simple VitePress instance with two pages:
 1.  A landing page containing information a *fake* software tool from your imagination.
 2.  An installation guide for the above mentioned tool.
 
-### 4. Dockerfile
+### 4. Dockerfile *(Assigned to @EsterWeiss)*
 
 Create a Dockerfile using a base image of your choice that contains the following:
 
