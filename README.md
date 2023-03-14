@@ -75,7 +75,7 @@ Convert *decimal degrees (DD)* to *degrees minutes seconds (DMS)* in the languag
 }
 ```
 
-### 7. Convert Markdown
+### 7. Convert Markdown *(Assigned to @RivkaBerlinski)*
 
 Programmatically convert a markdown document to a PDF in any language.
 
