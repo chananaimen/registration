@@ -1,0 +1,12 @@
+#Use an existing docker image as a base
+FROM node:16.19.1-buster
+
+# Set the working directory inside the container
+WORKDIR /myconvertdd
+
+# Copy the JavaScript file into the container
+COPY ./myconvert.js .
+
+
+# Set the command that should be run when the container starts
+CMD ["myconvert.js", "node"]
