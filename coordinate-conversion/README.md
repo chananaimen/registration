@@ -1,6 +1,6 @@
 # Coodinate - conversion
-this JavaScript function that called convertFromDDToDms converts decimal degrees to degrees-minutes-seconds in the format
-"dd degrees mm minutes ss seconds". 
+function called convertFromDDToDms converts decimal degrees to degrees-minutes-seconds
+And also shows in which position the degree is located on the globe
 ## Installation
 
 To use convertFromDDToDms, you need to have a JavaScript environment installed, such as Node.js.
