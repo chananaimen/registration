@@ -9,4 +9,4 @@ COPY ./convertdecimaldegrees.js .
 
 
 # Set the command that should be run when the container starts
-CMD ["convertdecimaldegrees.js", "node"]
+CMD ["node","convertdecimaldegrees.js"]
