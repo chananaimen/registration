@@ -2,7 +2,7 @@
 FROM node:16.19.1-buster
 
 # Set the working directory inside the container
-WORKDIR /myconvertdd
+WORKDIR /coordinate-conversion
 
 # Copy the JavaScript file into the container
 COPY ./myconvert.js .
