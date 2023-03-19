@@ -5,8 +5,8 @@ FROM node:16.19.1-buster
 WORKDIR /coordinate-conversion
 
 # Copy the JavaScript file into the container
-COPY ./myconvert.js .
+COPY ./convertdecimaldegrees.js .
 
 
 # Set the command that should be run when the container starts
-CMD ["myconvert.js", "node"]
+CMD ["convertdecimaldegrees.js", "node"]
