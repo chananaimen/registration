@@ -1,24 +1,50 @@
  
 
-function convertFromDDToDms(dd)
+function convertFromDDToDms(dd,isLng)
 {
-    var absDd = Math.abs(dd);
-  var deg = Math.floor(absDd);
-  var temp = absDd - deg;
+   let dir;
+
+     if(dd<0)
+    {
+      if(isLng)
+       {
+        dir='W';
+       }
+      else
+      {
+        dir='S';
+       }
+     }
+     else
+    {
+       if(isLng)
+
+     {
+       dir='E';
+       }
+      else
+      {
+         dir='N';
+      }
+     }
+
+ const absDd = Math.abs(dd);
+  let deg = Math.floor(absDd);
+  let temp = absDd - deg;
  if(temp!=0)
  {
     temp=temp*60;
-    var min = Math.floor(temp) ;
-    var sec = temp - min ;
+    let min = Math.floor(temp) ;
+    let sec = temp - min ;
  if(sec!=0)
    {
      sec =(Math.floor(Math.round(sec * 6000)))/100;
-    return deg + " degrees " + min + " minutes " + sec + ' second ';
+    return `${deg} degrees ${min} minutes ${sec} second ${dir} directional`;
    }
-    return  deg + " degrees " + min + " minutes " ;
+   return`${deg} degrees ${min} minutes ${dir} directional` ;
  }
- return  deg + " degrees " ;
+ return  `${deg} degrees ${dir} directional`;
 }
 
-console.log(convertFromDDToDms(34.0522));
+console.log(convertFromDDToDms(66.977,false));
 

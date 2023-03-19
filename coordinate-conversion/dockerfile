@@ -1,9 +1,6 @@
 #Use an existing docker image as a base
 FROM node:16.19.1-buster
 
-# Set the working directory inside the container
-WORKDIR /coordinate-conversion
-
 # Copy the JavaScript file into the container
 COPY ./convertdecimaldegrees.js .
 
